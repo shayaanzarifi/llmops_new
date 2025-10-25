@@ -1,0 +1,1 @@
+This project is a tiny LLMOps starter. It serves a FastAPI endpoint (/ask) that answers questions using local text files. It includes a simple guardrail that blocks PII/contact-seeking queries and returns a trace_id for observability.
