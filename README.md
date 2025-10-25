@@ -23,8 +23,6 @@ Try GET /ask → Try it out → query: What is this project about? → Execute.
 To stop the server: press Ctrl + C in the terminal running Uvicorn.
 
 Mini-evaluation
-bash
-Copy code
 # Open a second terminal tab in the same folder and activate the venv again:
 source .venv/bin/activate
 pip install requests
@@ -49,8 +47,6 @@ requirements.txt — Locked deps: FastAPI, Uvicorn, Pydantic, Regex.
 Troubleshooting
 pydantic-core build error on Python 3.14: create a Python 3.12 venv instead:
 
-bash
-Copy code
 brew install python@3.12  # macOS
 python3.12 -m venv .venv
 source .venv/bin/activate
